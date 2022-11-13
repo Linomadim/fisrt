@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 2022.2.21.0 https://api.sketch.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" sketchjs:metadata="eyJuYW1lIjoiRHJhd2luZy0yLnNrZXRjaHBhZCIsInN1cmZhY2UiOnsibWV0aG9kIjoiZmlsbCIsImJsZW5kIjoibm9ybWFsIiwiZW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwidHlwZSI6InBhdHRlcm4iLCJwYXR0ZXJuIjp7InR5cGUiOiJwYXR0ZXJuIiwicmVmbGVjdCI6Im5vLXJlZmxlY3QiLCJyZXBlYXQiOiJyZXBlYXQiLCJzbW9vdGhpbmciOmZhbHNlLCJzcmMiOiJ0cmFuc3BhcmVudExpZ2h0Iiwic3giOjEsInN5IjoxLCJ4MCI6MC41LCJ4MSI6MSwieTAiOjAuNSwieTEiOjF9fSwiY2xpcFBhdGgiOnsiZW5hYmxlZCI6dHJ1ZSwic3R5bGUiOnsic3Ryb2tlU3R5bGUiOiJibGFjayIsImxpbmVXaWR0aCI6MX19LCJkZXNjcmlwdGlvbiI6Ik1hZGUgd2l0aCBTa2V0Y2hwYWQiLCJtZXRhZGF0YSI6e30sImV4cG9ydERQSSI6NzIsImV4cG9ydEZvcm1hdCI6InBuZyIsImV4cG9ydFF1YWxpdHkiOjAuOTUsInVuaXRzIjoicHgiLCJ3aWR0aCI6NjEyLCJoZWlnaHQiOjYxMiwicGFnZXMiOlt7IndpZHRoIjo2MTIsImhlaWdodCI6NjEyfV0sInV1aWQiOiIyNTdiM2VmZC01NTk5LTQ4NTQtODczOC0xNTE5ZDJlNmY1OWQifQ==" width="612" height="612" viewBox="0 0 612 612">
+<g style="mix-blend-mode: source-over;" sketchjs:tool="clipart" transform="matrix(1,0,0,1,-2,-1)">
+	<g sketchjs:uid="1">
+		<g id="Shape_9" sketchjs:uid="2">
+			<g sketchjs:uid="3">
+				<path d="M306,0C137.27,0,0,137.27,0,306c0,168.73,137.27,306,306,306c168.73,0,306-137.27,306-306C612,137.27,474.73,0,306,0z      M306,595.459C146.4,595.459,16.541,465.6,16.541,306S146.4,16.541,306,16.541S595.459,146.4,595.459,306     S465.6,595.459,306,595.459z M271.066,426.415L129.132,316.023l-10.156,13.051L274.771,450.25L461.68,178.373l-13.63-9.362     L271.066,426.415z" sketchjs:uid="4" style="fill: #5dc2af; fill-opacity: 1;"/>
+			</g>
+		</g>
+	</g>
+	<g sketchjs:uid="5">
+	</g>
+	<g sketchjs:uid="6">
+	</g>
+	<g sketchjs:uid="7">
+	</g>
+	<g sketchjs:uid="8">
+	</g>
+	<g sketchjs:uid="9">
+	</g>
+	<g sketchjs:uid="10">
+	</g>
+	<g sketchjs:uid="11">
+	</g>
+	<g sketchjs:uid="12">
+	</g>
+	<g sketchjs:uid="13">
+	</g>
+	<g sketchjs:uid="14">
+	</g>
+	<g sketchjs:uid="15">
+	</g>
+	<g sketchjs:uid="16">
+	</g>
+	<g sketchjs:uid="17">
+	</g>
+	<g sketchjs:uid="18">
+	</g>
+	<g sketchjs:uid="19">
+	</g>
+</g>
+<path style="fill: #ffeeaa; stroke: #000000; mix-blend-mode: source-over; paint-order: stroke fill markers; fill-opacity: 1; stroke-dasharray: none; stroke-dashoffset: 0; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-opacity: 1; stroke-width: 2; vector-effect: non-scaling-stroke;" sketchjs:tool="star" d="M50 0 L64.69 29.77 97.55 34.55 73.78 57.73 79.39 90.45 50 75 20.61 90.45 26.22 57.73 2.45 34.55 35.31 29.77 z" transform="matrix(1,0,0,1,-277.9999999998,41.000000000200004)"/>
+</svg>
