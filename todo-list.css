@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #F5F5F5;
+
+}
+
+.wrapper {
+    max-width: 550px;
+    margin: 0px auto;
+}
+
+/*------Название--------------------------------------*/
+.title {
+    text-align: center;
+    margin: 15px 0 0 0px;
+    color: #EAD7D7;
+
+    font-size: 100px;
+}
+
+/*--------Интерфейс списка задач------------------------*/
+.todo {
+    border: 0.5px solid #E6E6E6;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 30px 0.1px #D4D4D4;
+    margin-top: 15px;
+}
+
+/*--------Поле для ввода задач------------------------*/
+.todo__input-colum {
+    display: flex;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.todo__select-all {
+    padding: 24.5px 25px 24.5px 20px;
+    align-self: center;
+    opacity: 0.3;
+    visibility: hidden;
+}
+
+.todo__select-all_active {
+    opacity: 1;
+}
+
+.todo__select-all img {
+    width: 18px;
+    height: 10px;
+}
+
+.todo__input-enter {
+    margin-left: 0px;
+    width: 100%;
+    font-size: 24px;
+    padding: 15px 15px 15px 0px;
+    opacity: 0.7;
+}
+
+input::placeholder {
+    opacity: 0.2;
+    color: #4D4D4D;
+    font-style: italic;
+}
+
+/*--------Поле с задачами------------------------*/
+.todo__list {
+    background-color: #FFFFFF;
+    box-shadow: 0px -0.3px 3px 0.1px #D4D4D4;
+}
+
+.todo__task {
+    display: flex;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 13px 0px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo_checkbox {
+    cursor: default;
+    margin: 0 20px 0 12px;
+}
+
+.todo_checkbox input {
+    display: none;
+}
+
+.todo_checkbox input:checked+div {
+    background: url('C:/Users/PC/Desktop/First-project/fisrt-1/icon/checkmark-circular.svg') 0 0/100% no-repeat;
+    opacity: 0.9;
+}
+
+.todo_checkbox-div {
+    background: url('C:/Users/PC/Desktop/First-project/fisrt-1/icon/Circle.svg') 0 0/100% no-repeat;
+    opacity: 0.3;
+    width: 30px;
+    height: 30px;
+}
+
+.todo__task-text {
+    font-size: 24px;
+    flex: 1 1 100%;
+    padding-right: 0px;
+    word-break: break-all;
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+
+
+.todo__task_complete .todo__task-text {
+    text-decoration: line-through;
+    opacity: 0.2;
+}
+
+
+/*--------------------Кнопка удаления----------------*/
+.todo__task-del {
+    visibility: hidden;
+    align-self: flex-end;
+    position: relative;
+    right: 21px;
+    cursor: auto;
+    max-height: 30px;
+    font-size: 30px;
+    background-color: transparent;
+    color: #dbafaf;
+}
+
+
+
+.todo__task:hover .todo__task-del {
+    visibility: visible;
+}
+
+.todo__task-del:hover {
+    color: #b25b5b;
+}
+
+/*--------Нижняя часть интерфейса------------------------*/
+
+.todo__footer {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    color: #777777;
+    padding: 5px 15px;
+    font-size: 12px;
+    flex-wrap: wrap;
+}
+
+/*------------кнопки фильтра----------------*/
+.todo__footer {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 1.5px 2px 0.1px #d4d4d4;
+    color: #777777;
+}
+
+.todo__filter {
+    display: flex;
+    margin-left: 20px;
+}
+
+@media (max-width: 410px) {
+    .todo__footer {
+        height: 60px;
+    }
+
+    .todo__filter {
+        order: 3;
+        flex: 0 1 100%;
+        justify-content: center;
+        margin: 0%;
+    }
+
+    .todo__items-left {
+        flex: 0 1 50%;
+        margin-top: 8px;
+    }
+
+    .todo_clear-completed {
+        flex: 0 1 50%;
+        justify-content: flex-end;
+        text-align: end;
+    }
+
+}
+
+.todo__filter a {
+    color: #777777;
+}
+
+
+/* -------------------------------  */
+.todo__filter-all {
+    margin-left: 10px;
+    padding: 3px 6px;
+    border: 1px solid #fefefe;
+    border-radius: 3px;
+    background-color: transparent;
+
+}
+
+.todo__filter-active {
+    background-color: transparent;
+    margin-left: 10px;
+    padding: 3px 6px;
+    border: 1px solid #fefefe;
+    border-radius: 3px;
+}
+
+.todo__filter-completed {
+    margin-left: 10px;
+    padding: 3px 6px;
+    border: 1px solid #fefefe;
+    border-radius: 3px;
+    background-color: transparent;
+
+}
+
+.active {
+    border-color: rgb(239, 213, 213);
+}
+
+.todo__footer span :not(.active):hover {
+    border-color: rgb(239, 213, 213, 0.5);
+}
+
+/* -------------------------------  */
+
+.todo_clear-completed:hover {
+    text-decoration: underline;
+}
+
+.todo_clear-completed {
+    visibility: hidden;
+}
+
+/*----------Нижнии блоки интерфейса---------------------------------------------*/
+.footer_interface_block1 {
+    display: none;
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin: 0 4px 0 4px;
+    box-shadow: 0px 1.1px 1px 0.1px #d4d4d4;
+}
+
+.footer_interface_block2 {
+    display: none;
+    background-color: #FFFFFF;
+    padding: 2px;
+    margin: 0 8px 0 8px;
+    box-shadow: 0px 1.1px 1px 0.1px #d4d4d4;
+}
+
+/*--------Подвал сайта------------------------*/
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #BFBFBF;
+    line-height: 17px;
+    font-size: 10px;
+}
+
+footer a {
+    color: #BFBFBF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

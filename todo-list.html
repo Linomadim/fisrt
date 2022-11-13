@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="C:\Users\PC\Desktop\First-project\fisrt-1\todo-list.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <h1 class="title">todos</h1>
+
+        <div class="todo">
+            <div class="todo__input-colum">
+
+                <div id="completeAllTasks" class="todo__select-all ">
+                    <div class="todo__select-all_img"><img
+                            src="C:\Users\PC\Desktop\First-project\fisrt-1\icon\chevron-down.svg" alt="icon-select-all">
+                    </div>
+                </div>
+                <input id="input" class="todo__input-enter" type="text" placeholder="What needs to be done?">
+            </div>
+
+            <ul id="tasks" class="todo__list">
+            </ul>
+            <div id="todoFooter" class="todo__footer">
+                <div><span id="itemsLeft" class="todo__items-left"></span> items left</div>
+                <div class="todo__filter ">
+                    <span>
+                        <a href="#" class="todo__filter-all " onclick="changeFilter(this.id)" id="ALL">All</a>
+                    </span>
+                    <span>
+                        <a href="#" class="todo__filter-active" onclick="changeFilter(this.id)" id="ACTIVE">Active</a>
+                    </span>
+                    <span>
+                        <a href="#" class="todo__filter-completed  " onclick="changeFilter(this.id)"
+                            id="COMPLETED">Completed</a>
+                    </span>
+                </div>
+                <div id="clearCompleted" class="todo_clear-completed ">Clear completed</div>
+            </div>
+        </div>
+        <div id="block1" class="footer_interface_block1 "> </div>
+        <div id="block2" class="footer_interface_block2 "> </div>
+        <footer>
+
+            <p>Double-click to edit a todo</p>
+            <p>Created by <a href="https://github.com/petehunt/">petehunt</a></p>
+            <p>Part of <a href="https://todomvc.com/">TodoMVC</a></p>
+        </footer>
+    </div>
+    <script src="todo-list.js"></script>
+</body>
+
+</html>
